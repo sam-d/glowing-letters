@@ -2,4 +2,4 @@
 
 You will need to FastLED library installed to compile the code.
 
-Please make sure to change the NUM_LEDS variable to the number of LEDs in your particular project.
+Please make sure to change the NUM_LEDS variable to the number of LEDs in your particular project. Also adapt the pin that controls the LEDs and the pin the controls the PIR sensor when using different pins.
