@@ -1,0 +1,5 @@
+#Note
+
+You will need to FastLED library installed to compile the code.
+
+Please make sure to change the NUM_LEDS variable to the number of LEDs in your particular project.
