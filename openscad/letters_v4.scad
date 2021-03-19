@@ -70,10 +70,8 @@ union(){
         cable_bridge(66.5,dove_scale=1+tol,z_scale=1.8);
         cube([2,1,10]);
     }
-//    translate([0,0,letter_depth-pin_height/2]) S_pin_mask_neg();
 }
     //arduino holder
-//    color([1,0,0]) translate([25,37,body_wall_thickness])rotate([0,0,-35]) corner_bracket_arduino();
 color([1,0,0]) translate([112,5,body_wall_thickness-0.5]) rotate([0,0,9]) corner_bracket_arduino();
 
 }}
@@ -159,7 +157,6 @@ module amp_bottom_final(){
         translate([100,0,0])screw();
         translate([-14,161,0])cable_bridge(66.5,dove_scale=1+tol,z_scale=1.8);
         translate([163.5,161,0])cable_bridge(72,dove_scale=1+tol,z_scale=1.8);
-//        translate([0,0,letter_depth-pin_height/2]) amp_pin_mask_neg();
     }
 }
 
@@ -168,7 +165,6 @@ module N_bottom_final(){
             N_shell();
             translate([40,0,0])screw();
             translate([180,0,0])screw();
-//            translate([0,0,letter_depth-pin_height/2]) N_pin_mask_neg();
             translate([-52.5,161,0])cable_bridge(72,dove_scale=1+tol,z_scale=1.8);
         }
 }
@@ -181,7 +177,7 @@ module N_diffuser(){
     offset(delta=+wall_thickness/2)text("N", font = "Liberation Sans:style=Bold");
 }}}
 
-//viz();
+viz();
 
 module viz(){
     //%letters();
@@ -213,9 +209,3 @@ module viz(){
 //translate([0,15,0])cable_bridge_cap(66.5);
 //translate([0,30,0])cable_bridge(72); //for the space between &, N
 //translate([0,45,0])cable_bridge_cap(72);
-
-
-
-//scale([22,22,1])  linear_extrude(0.3) offset(delta=-0.1) text("N", font = "Liberation Sans:style=Bold");
-
-//scale([22,22,1])  linear_extrude(0.3) offset(delta=-0.1) text("S", font = "Liberation Sans:style=Bold");
