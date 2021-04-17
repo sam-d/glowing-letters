@@ -22,4 +22,8 @@ calculate power draw yourself when adapting this project
 
 # Build Log
 
-Build log can be found on [my blog](http://sam-d.com/blog/...)
+Build log can be found on [my blog](http://sam-d.com/blog/glowing-letters/)
+
+# License
+
+The code is under the [GPLv3 license](https://www.gnu.org/licenses/gpl-3.0.en.html), the designs and description are [CC-BY](https://creativecommons.org/licenses/by/4.0/)
